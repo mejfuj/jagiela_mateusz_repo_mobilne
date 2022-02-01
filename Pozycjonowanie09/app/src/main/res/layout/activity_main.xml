@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <androidx.cardview.widget.CardView
         android:layout_width="409dp"
         android:layout_height="wrap_content"
@@ -37,4 +38,6 @@
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="101dp"
         tools:layout_editor_absoluteY="161dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
