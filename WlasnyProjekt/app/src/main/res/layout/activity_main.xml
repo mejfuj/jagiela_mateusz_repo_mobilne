@@ -4,13 +4,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#FFBE00"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="11dp">
 
-    <Button
-        android:id="@+id/button"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="204dp"
+        android:layout_height="203dp"
+        app:srcCompat="@drawable/_51a01b2bcaf38f0bc1075e105a6fc99"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_width="307dp"
+        android:layout_height="211dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="272dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="272dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="141dp" />
+        android:fontFamily="sans-serif-medium"
+        android:text="Floppa"
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Newsletter"
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login:"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasło:"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="363dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
